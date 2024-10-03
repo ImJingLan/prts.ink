@@ -1,0 +1,104 @@
+body {
+  padding: 5vh 10vw;
+  color: #333;
+  font-size: calc(10px + 0.33vw);
+  font-family: "Noto Serif SC";
+  background-color: #f7f7f7;
+}
+h1 {
+  font-size: 2.72em;
+  line-height: 1.49;
+}
+h2 {
+  font-size: 2.17em;
+  line-height: 1.26;
+}
+h3 {
+  font-size: 1.72em;
+  line-height: 1.26;
+  margin: 0.65em 0;
+}
+h4 {
+  font-size: 1.39em;
+  line-height: 1.24;
+  margin: 0.65em 0;
+}
+h5 {
+  font-size: 1.11em;
+  line-height: 1.25;
+  margin: 1em 0;
+}
+h6 {
+  font-size: 0.8888em;
+  line-height: 1.25;
+  margin: 1em 0;
+}
+p {
+  margin-bottom: 1.5em;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.75;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  -webkit-transition: all ease 0.35s;
+  -moz-transition: all ease 0.35s;
+  transition: all ease 0.35s;
+}
+a:hover {
+  color: #828282;
+}
+.site-head.item {
+  font-size: 1.17em;
+  display: inline;
+  padding: 0 10px 0 0;
+}
+.pagination {
+  margin-top: 3rem;
+  justify-content: center;
+}
+.pagination .space {
+  align-self: flex-end;
+  margin: 0 1.25rem;
+}
+.pagination .page-number,
+.pagination .current,
+.pagination .extend {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 0.9rem;
+  padding: 1rem 1.25rem;
+  line-height: 2;
+  border-radius: 0.125rem;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+.pagination .current {
+  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+}
+.pagination .page-number:hover,
+.pagination .extend:hover {
+  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+}
+.pagination .page-number {
+  margin: 0 0.05rem;
+}
+.page_content {
+  max-width: 45rem;
+}
+.page_content > .content {
+  width: 100%;
+}
+.page_content img {
+  width: 100%;
+}
+.entry-post {
+  font-size: 2.2em;
+  line-height: 1.25;
+}
+.header {
+  white-space: nowrap;
+}

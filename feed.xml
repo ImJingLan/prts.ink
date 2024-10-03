@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>纯白之境</title>
+    <link>http://white.yurik.cafe/</link>
+    
+    <atom:link href="http://white.yurik.cafe/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 03 Oct 2024 19:29:53 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>「纯白之境」〇.初访</title>
+      <link>http://white.yurik.cafe/2024/hello-white/</link>
+      <guid>http://white.yurik.cafe/2024/hello-white/</guid>
+      <pubDate>Thu, 03 Oct 2024 19:03:39 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;我常常想，文字的魅力是什么？&lt;br&gt;从大脑到终端的传输过程终会丢失部分数据。&lt;br&gt;纸和笔，磁头和磁带，激光与光盘……物理层面的记录让记忆更长久。&lt;br&gt;这或许就是记录的魅力。&lt;br&gt;将心中所想现于形，再展示出来。&lt;br&gt;在再次记录中修正，感悟&lt;br&gt;不需要多么华丽的文字，</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>我常常想，文字的魅力是什么？<br>从大脑到终端的传输过程终会丢失部分数据。<br>纸和笔，磁头和磁带，激光与光盘……物理层面的记录让记忆更长久。<br>这或许就是记录的魅力。<br>将心中所想现于形，再展示出来。<br>在再次记录中修正，感悟<br>不需要多么华丽的文字，不需要多么炫彩的特效。<br>一张白纸，黑底白字。<br>在「纯白之境」中留下回忆。<br>欢迎来到汐琥的「纯白之境」。这里有TA的梦和文字。</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://white.yurik.cafe/2024/hello-white/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
