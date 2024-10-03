@@ -1,6 +1,7 @@
 <head>
     <meta charset="UTF-8">
-    <title><%= page.title %></title>
+    
+    <title><%if(page.title){%><%= page.title %><%} else {%><%= config.title %><%}%></title>
     <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
       <!-- stylesheets list from _config.yml -->
       <% theme.stylesheets.forEach(url => { %>
