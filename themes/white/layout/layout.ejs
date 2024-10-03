@@ -1,0 +1,34 @@
+<%
+var pageTitle = page.title || config.subtitle || '';
+if (is_archive()) pageTitle = 'Archives';
+if (is_tag()) pageTitle = 'Tag: ' + page.tag;
+if (is_category()) pageTitle = 'Category: ' + page.category;
+if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
+if (is_year()) pageTitle += ': ' + page.year;
+pageTitle += ' [ ' + config.title + ' ]';
+%>
+<!DOCTYPE html>
+<html lang="<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>">
+<%- partial("_partial/head") %>
+<link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+SC:wght@200..900&display=swap"
+      rel="stylesheet"
+/>
+
+
+<body>
+
+  <div class="header"><h3 class="site-head item"><a href="/"><%-config.title-%></a></h3><%- partial("_partial/menu") %></div>
+  <div id="content">
+    <%- body %>
+  </div>
+
+  <% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>
+  <% theme.scripts.forEach(url => { %>
+  <script src="<%=url%>"></script>
+  <% }); %>
+  <% } %>
+
+</body>
+
+</html>

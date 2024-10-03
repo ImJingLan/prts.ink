@@ -1,0 +1,16 @@
+
+# html lang
+language: zh_CN
+
+# main menu navigation
+menu:
+  醒来: //yurik.cafe
+  回忆史: /logs
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/style.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/white.js
