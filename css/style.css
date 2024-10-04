@@ -35,9 +35,14 @@ h6 {
 }
 p {
   margin-bottom: 1.5em;
-  font-size: 1.3em;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 500;
   line-height: 1.75;
+}
+@media screen and (max-width: 630px) {
+  p {
+    font-size: 1.1rem;
+  }
 }
 a {
   text-decoration: none;
@@ -50,9 +55,17 @@ a:hover {
   color: #828282;
 }
 .site-head.item {
-  font-size: 1.17em;
+  font-size: 1.3rem;
   display: inline;
   padding: 0 10px 0 0;
+  display: inline-block;
+  margin: 0.65em 0 0 0;
+  font-weight: bold;
+}
+@media screen and (max-width: 630px) {
+  .site-head.item {
+    font-size: 1.3rem;
+  }
 }
 .pagination {
   margin-top: 3rem;
@@ -76,29 +89,45 @@ a:hover {
   font-weight: 600;
   text-decoration: none;
 }
-.pagination .current {
+.pagination .page-number:hover,
+.pagination .current:hover,
+.pagination .extend:hover {
   box-shadow: 0 2px 20px rgba(0,0,0,0.05);
 }
-.pagination .page-number:hover,
-.pagination .extend:hover {
+.pagination .current {
   box-shadow: 0 2px 20px rgba(0,0,0,0.05);
 }
 .pagination .page-number {
   margin: 0 0.05rem;
+  font-size: 1.25rem;
 }
-.page_content {
+#content {
   max-width: 45rem;
 }
-.page_content > .content {
+@media screen and (max-width: 630px) {
+  #content {
+    max-width: 100%;
+  }
+}
+#content img {
   width: 100%;
 }
-.page_content img {
-  width: 100%;
-}
-.entry-post {
+.item-title,
+.archive-list-item {
   font-size: 2.2em;
   line-height: 1.25;
 }
+.archive-list-item {
+  margin-bottom: 1.5em;
+}
 .header {
-  white-space: nowrap;
+  display: block;
+}
+#footer {
+  margin-top: 3rem;
+}
+.archive-list {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
 }
