@@ -12,7 +12,7 @@ pageTitle += ' [ ' + config.title + ' ]';
 <html lang="<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>">
 <%- partial("_partial/head") %>
 <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+SC:wght@200..900&display=swap"
+      href="https://fonts.font.im/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+SC:wght@200..900&display=swap"
       rel="stylesheet"
 />
 
@@ -30,6 +30,8 @@ pageTitle += ' [ ' + config.title + ' ]';
   <% }); %>
   <% } %>
 
+  <%- partial("_partial/footer") %>
+  
 </body>
 
 </html>

@@ -3,8 +3,8 @@
   <div id="recent-posts">
     <h1><%-config.subtitle-%></h1>
     <% page.posts.sort('date', -1).limit(10).each(post => { %>
-      <div class="recent-post-item">
-        <p class="entry-post">
+      <div class="item">
+        <p class="item-title">
         <a href="<%=url_for(post.path)%>"><%=post.title%></a> - <time datetime="<%=post.date.toJSON()%>">
           <%=date(post.date)%>
         </time>

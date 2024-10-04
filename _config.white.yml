@@ -4,8 +4,10 @@ language: zh_CN
 
 # main menu navigation
 menu:
-  醒来: //yurik.cafe
+  录像带: /archive
   回忆录: /logs
+  友人帐: /links
+  醒来: //yurik.cafe
 
 # stylesheets loaded in the <head>
 stylesheets:
