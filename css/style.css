@@ -58,6 +58,7 @@ a {
 a:hover {
   color: #828282;
 }
+/*Header*/
 .site-head.item {
   font-size: 1.3rem;
   display: inline;
@@ -71,6 +72,7 @@ a:hover {
     font-size: 1.3rem;
   }
 }
+/*翻页组件*/
 .pagination {
   margin-top: 3rem;
   justify-content: center;
@@ -85,7 +87,6 @@ a:hover {
   outline: 0;
   border: 0;
   background-color: transparent;
-  font-size: 0.9rem;
   padding: 1rem 1.25rem;
   line-height: 2;
   border-radius: 0.125rem;
@@ -102,9 +103,10 @@ a:hover {
   box-shadow: 0 2px 20px rgba(0,0,0,0.05);
 }
 .pagination .page-number {
-  margin: 0 0.05rem;
+  margin: 0 0.2rem;
   font-size: 1.25rem;
 }
+/*文章主要内容*/
 #content {
   max-width: 45rem;
 }
@@ -116,14 +118,23 @@ a:hover {
 #content img {
   width: 100%;
 }
+/*各种列表*/
 .item-title,
-.archive-list-item {
-  font-size: 1.8rem;
+.archive-list-item,
+.category-item {
+  font-size: 1.3rem;
   line-height: 1.25;
   font-weight: 500;
 }
-.archive-list-item {
+.archive-list-item,
+.category-item {
   margin-bottom: 1.5em;
+}
+.archive-list,
+.category-list {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
 }
 .header {
   display: block;
@@ -131,8 +142,74 @@ a:hover {
 #footer {
   margin-top: 3rem;
 }
-.archive-list {
-  list-style-type: none;
-  list-style: none;
-  padding: 0;
+.posts-line {
+  margin: 12px 0;
+}
+.article-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  margin-bottom: 15px;
+}
+.time,
+.title,
+.category {
+  flex: 1;
+  text-align: left;
+  font-size: 1.3rem;
+}
+.time {
+  color: #6e6e73;
+  font-family: "Courier New", Courier, "Menlo", "Monaco", Consolas, "Liberation Mono", "Lucida Console", monospace;
+}
+.title {
+  font-weight: bold;
+  text-align: left;
+}
+.category {
+  align-content: center;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 640px) {
+  .category {
+    display: none;
+  }
+}
+.categoryCard {
+  margin: 0 4.5rem;
+  align-content: center;
+  text-align: center;
+  padding: 3px 0;
+  border: #d1d7dd 2px solid;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.posts-year-title {
+  font-weight: 900;
+  position: absolute;
+  right: 0;
+  color: var(--text-color);
+  opacity: 0.25;
+  font-size: calc(9rem / 2);
+  margin-right: 45rem;
+  line-height: 1;
+  z-index: -1;
+}
+.quote-card {
+  --card-bg: rgba(255,255,255,0.25);
+  --card-bg-lighter: rgba(255,255,255,0.1);
+  --card-noise: rgba(255,255,255,0.04);
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  margin: 5rem 3rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px 3px rgba(0,0,0,0.102), 0 2px 4px -2px rgba(0,0,0,0.102);
+  transform: rotate(0);
+  background-color: rgba(255,255,255,0.35);
+  background: linear-gradient(var(--card-bg-lighter), var(--card-bg-lighter)), repeating-radial-gradient(var(--card-bg) 0 0.0001%, var(--card-noise) 0 0.0002%) 50% 0/2500px 2500px, repeating-conic-gradient(var(--card-bg) 0 0.0001%, var(--card-noise) 0 0.0002%) 60% 60%/2500px 2500px;
+  background-blend-mode: normal, difference;
 }
