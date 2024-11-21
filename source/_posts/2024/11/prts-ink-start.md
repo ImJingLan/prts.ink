@@ -1,8 +1,21 @@
 ---
-title: PRTS.INK 开篇语
+title: 开篇语
 date: 2024-11-21 13:09:36
 tags:
+categories:
+    - 普朗忒斯
 ---
+
+
+{% quote_card
+rotateDeg=-2 
+content='''
+<p>“时间是美好的，他让我们相遇</p>
+<p>时间也是混蛋的，他又让我们分别”</p>
+'''
+
+%}
+
 
 ## 你好，博士！
 
@@ -25,4 +38,8 @@ tags:
 好吧，或者这个还是需要一个名字以防他同 **Preliminary Rhodes Terminal System** 混淆。
 
 那么我就叫他 『**普朗忒斯之墨**』吧。
+
+## 鸣谢
+
+[極客死亡計劃](https://www.geedea.pro/) - 超级棒的设计，本文头的
 

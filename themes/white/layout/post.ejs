@@ -6,6 +6,11 @@
       <%-page.content%>
     </div>
   </div>
+  <div class="footer">
+    <% page.categories.forEach(function(category, index) {%>
+      <a href="/<%= category.path %>"><%=category.name%></a>
+    <%});%>
+  </div>
   <p><a href="/">← 返回</a></p>
 </article>
 
