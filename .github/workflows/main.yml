@@ -41,11 +41,15 @@ jobs:
 
       - name: 设置Node环境
         uses: actions/setup-node@master
-
+        with:
+          node-version: 20
+          cache: 'npm'
+      - run: npm ci
+      - run: npm test
+      
       - name: 安装Hexo Cli 和 其他 环境
         run: |
           npm install hexo-cli -g
-          npm install
 
       - name: 渲染博客界面
         run: |
