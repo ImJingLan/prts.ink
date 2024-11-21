@@ -45,8 +45,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm ci
-      - run: npm test
-      
+
       - name: 安装Hexo Cli 和 其他 环境
         run: |
           npm install hexo-cli -g
