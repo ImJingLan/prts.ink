@@ -3,19 +3,41 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>纯白之境</title>
-    <link>http://white.yurik.cafe/</link>
+    <title>普朗忒斯之墨</title>
+    <link>http://prts.ink/</link>
     
-    <atom:link href="http://white.yurik.cafe/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://prts.ink/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 04 Oct 2024 02:47:51 GMT</pubDate>
+    <pubDate>Thu, 21 Nov 2024 05:38:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>PRTS.INK 开篇语</title>
+      <link>http://prts.ink/2024/prts-ink-start/</link>
+      <guid>http://prts.ink/2024/prts-ink-start/</guid>
+      <pubDate>Thu, 21 Nov 2024 05:09:36 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;你好，博士！&quot;&gt;&lt;a href=&quot;#你好，博士！&quot; class=&quot;headerlink&quot; title=&quot;你好，博士！&quot;&gt;&lt;/a&gt;你好，博士！&lt;/h2&gt;&lt;p&gt;好吧，我承认我开了个玩笑。&lt;br&gt;我不擅长起名字，这个站点的名字是&lt;strong&gt;无序的&lt;/strong&gt;、</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="你好，博士！"><a href="#你好，博士！" class="headerlink" title="你好，博士！"></a>你好，博士！</h2><p>好吧，我承认我开了个玩笑。<br>我不擅长起名字，这个站点的名字是<strong>无序的</strong>、<strong>随意的</strong>、<strong>充满想象的</strong>。站点名字的解释也没有定义，唯一确定的是 <strong>.ink</strong> 域名代表着这是一个充满文字的站点。</p><h2 id="Let-me-break-it-down"><a href="#Let-me-break-it-down" class="headerlink" title="Let me break it down"></a>Let me break it down</h2><p>我对PRTS的解释来自于拉丁语和英文，他们分别是 <strong>Pansy</strong>、<strong>Rutilans</strong>、<strong>Tenuis</strong>、<strong>Stella</strong></p><ul><li><strong>Pansy</strong>: 三色堇，在维多利亚时代的花语中，象征着“思念”或“请思考我”，还常常被视为谦虚和纯真的象征。</li><li><strong>Rutilans</strong>: 闪亮的，这个词形容某物发光或闪耀，通常用于描述金属、宝石或其他反光物体的光泽。</li><li><strong>Tenuis</strong>: 细小的，形容力量、影响或证据非常微弱。『<strong>寄蜉蝣于天地，渺沧海之一粟</strong>』</li><li><strong>Stella</strong>: 星星，象征希望、梦想和未来。</li></ul><p>如你所见，这些词语都有着他独特的含义，这也是我对我的世界观，价值观的评价。<br><strong>与人为善，心怀热忱，光虽微弱，犹能照人。</strong></p><h2 id="One-More-Thing"><a href="#One-More-Thing" class="headerlink" title="One More Thing"></a>One More Thing</h2><p>好吧，或者这个还是需要一个名字以防他同 <strong>Preliminary Rhodes Terminal System</strong> 混淆。</p><p>那么我就叫他 『<strong>普朗忒斯之墨</strong>』吧。</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://prts.ink/2024/prts-ink-start/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>风境之梦</title>
-      <link>http://white.yurik.cafe/2024/wind-dream/</link>
-      <guid>http://white.yurik.cafe/2024/wind-dream/</guid>
+      <link>http://prts.ink/2024/wind-dream/</link>
+      <guid>http://prts.ink/2024/wind-dream/</guid>
       <pubDate>Thu, 03 Oct 2024 19:45:20 GMT</pubDate>
       
         
@@ -30,14 +52,14 @@
       
       
       
-      <comments>http://white.yurik.cafe/2024/wind-dream/#disqus_thread</comments>
+      <comments>http://prts.ink/2024/wind-dream/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>〇.初访</title>
-      <link>http://white.yurik.cafe/2024/hello-white/</link>
-      <guid>http://white.yurik.cafe/2024/hello-white/</guid>
+      <link>http://prts.ink/2024/hello-white/</link>
+      <guid>http://prts.ink/2024/hello-white/</guid>
       <pubDate>Thu, 03 Oct 2024 19:03:39 GMT</pubDate>
       
         
@@ -52,7 +74,7 @@
       
       
       
-      <comments>http://white.yurik.cafe/2024/hello-white/#disqus_thread</comments>
+      <comments>http://prts.ink/2024/hello-white/#disqus_thread</comments>
       
     </item>
     

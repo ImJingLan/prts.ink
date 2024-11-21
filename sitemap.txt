@@ -1,6 +1,8 @@
-http://white.yurik.cafe/logs/index.html
-http://white.yurik.cafe/2024/hello-white/
-http://white.yurik.cafe/2024/wind-dream/
-http://white.yurik.cafe/archive/index.html
-http://white.yurik.cafe/links/index.html
-http://white.yurik.cafe/
+http://prts.ink/logs/index.html
+http://prts.ink/2024/hello-white/
+http://prts.ink/2024/wind-dream/
+http://prts.ink/2024/prts-ink-start/
+http://prts.ink/about/index.html
+http://prts.ink/archive/index.html
+http://prts.ink/links/index.html
+http://prts.ink/
