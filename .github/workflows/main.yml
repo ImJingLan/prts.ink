@@ -43,12 +43,12 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: 20
-          cache: 'npm'
-      - run: npm ci
+          
 
       - name: 安装Hexo Cli 和 其他 环境
         run: |
-          npm install hexo-cli -g
+          yarn global add hexo-cli
+          yarn
 
       - name: 渲染博客界面
         run: |
