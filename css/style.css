@@ -3,7 +3,7 @@ body {
   padding: 5vh 10vw;
   color: #333;
   font-size: calc(10px + 0.33vw);
-  font-family: "Noto Serif SC";
+  font-family: "Noto Serif SC", "Source Han Serif", "STSong", "Hiragino Mincho Pro", "SimSun", serif;
   background-color: #f7f7f7;
 }
 h1 {
@@ -11,7 +11,7 @@ h1 {
   line-height: 1.49;
 }
 h2 {
-  font-size: 2.17em;
+  font-size: 1.95em;
   line-height: 1.26;
 }
 h3 {
@@ -51,14 +51,12 @@ ul {
 a {
   text-decoration: none;
   color: #333;
-  -webkit-transition: all ease 0.35s;
-  -moz-transition: all ease 0.35s;
+  text-underline-offset: 0.25rem;
   transition: all ease 0.35s;
 }
 a:hover {
   color: #828282;
 }
-/*Header*/
 .site-head.item {
   font-size: 1.3rem;
   display: inline;
@@ -72,7 +70,6 @@ a:hover {
     font-size: 1.3rem;
   }
 }
-/*翻页组件*/
 .pagination {
   margin-top: 3rem;
   justify-content: center;
@@ -106,7 +103,6 @@ a:hover {
   margin: 0 0.2rem;
   font-size: 1.25rem;
 }
-/*文章主要内容*/
 #content {
   max-width: 45rem;
 }
@@ -118,7 +114,6 @@ a:hover {
 #content img {
   width: 100%;
 }
-/*各种列表*/
 .item-title,
 .archive-list-item,
 .category-item {
@@ -133,7 +128,6 @@ a:hover {
 .archive-list,
 .category-list {
   list-style-type: none;
-  list-style: none;
   padding: 0;
 }
 .header {
@@ -181,7 +175,7 @@ a:hover {
   align-content: center;
   text-align: center;
   padding: 3px 0;
-  border: #d1d7dd 2px solid;
+  border: 2px solid #d0d7de;
   border-radius: 5px;
   background-color: transparent;
 }
@@ -189,7 +183,7 @@ a:hover {
   font-weight: 900;
   position: absolute;
   right: 0;
-  color: var(--text-color);
+  color: #333;
   opacity: 0.25;
   font-size: calc(9rem / 2);
   margin-right: 45rem;
@@ -203,13 +197,65 @@ a:hover {
   font-size: 1.5rem;
   font-style: italic;
   text-align: center;
-  margin: 5rem 3rem;
-  padding: 1rem;
-  border: 1px solid var(--border-color);
+  margin: 5rem 2.5rem;
+  padding: 2rem 2rem;
+  border: 1px solid #d0d7de;
   border-radius: 1rem;
   box-shadow: 0 4px 6px 3px rgba(0,0,0,0.102), 0 2px 4px -2px rgba(0,0,0,0.102);
   transform: rotate(0);
   background-color: rgba(255,255,255,0.35);
   background: linear-gradient(var(--card-bg-lighter), var(--card-bg-lighter)), repeating-radial-gradient(var(--card-bg) 0 0.0001%, var(--card-noise) 0 0.0002%) 50% 0/2500px 2500px, repeating-conic-gradient(var(--card-bg) 0 0.0001%, var(--card-noise) 0 0.0002%) 60% 60%/2500px 2500px;
   background-blend-mode: normal, difference;
+}
+.quote-card p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.75;
+  margin-block-start: 0.25rem;
+  margin-block-end: 0.25rem;
+}
+.content a {
+  text-decoration: underline;
+  color: #277bd9;
+}
+.content strong {
+  color: #b6506a;
+}
+.content em {
+  color: #0271a4;
+  padding-inline-end: 0.3em;
+}
+.content hr {
+  margin: 2.5rem auto;
+  border: 0.1rem dashed #d0d7de;
+}
+.post .title_brand {
+  justify-content: center;
+}
+.post .title_brand a {
+  padding: 3px 3px;
+  margin: 0 0.8rem;
+  font-size: 0.8rem;
+  border: 2px solid #d0d7de;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.endline {
+  color: #333;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 1rem 0;
+  position: relative;
+}
+.endline:before {
+  content: "END";
+  position: absolute;
+  padding: 0 10px;
+  line-height: 1px;
+  border: solid #000;
+  border-width: 0 100vw;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
 }
