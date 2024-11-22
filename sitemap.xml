@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://prts.ink/2024/wind-dream/</loc>
+    <loc>http://prts.ink/links/index.html</loc>
     
     <lastmod>2024-11-22</lastmod>
     
@@ -21,6 +21,15 @@
   
   <url>
     <loc>http://prts.ink/2024/hello-white/</loc>
+    
+    <lastmod>2024-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/wind-dream/</loc>
     
     <lastmod>2024-11-22</lastmod>
     
@@ -48,15 +57,6 @@
   
   <url>
     <loc>http://prts.ink/archive/index.html</loc>
-    
-    <lastmod>2024-11-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/links/index.html</loc>
     
     <lastmod>2024-11-22</lastmod>
     
