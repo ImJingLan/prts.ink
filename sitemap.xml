@@ -4,79 +4,7 @@
   <url>
     <loc>http://prts.ink/logs/index.html</loc>
     
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/2024/hello-white/</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/2023/wind-dream/</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-0/</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-1/</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-2/</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/2024/%E6%9D%91%E5%BA%84%E7%9A%84%E7%89%A7%E5%B8%88%E6%AD%BB%E4%BA%86/</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/about/index.html</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://prts.ink/archive/index.html</loc>
-    
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +13,88 @@
   <url>
     <loc>http://prts.ink/links/index.html</loc>
     
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/hello-white/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2023/wind-dream/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-0/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-1/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-2/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%91%A8%E5%88%8A-vol-3/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/2024/%E6%9D%91%E5%BA%84%E7%9A%84%E7%89%A7%E5%B8%88%E6%AD%BB%E4%BA%86/</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/about/index.html</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://prts.ink/archive/index.html</loc>
+    
+    <lastmod>2024-12-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +103,7 @@
 
   <url>
     <loc>http://prts.ink/</loc>
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -104,21 +113,21 @@
   
   <url>
     <loc>http://prts.ink/categories/%E6%97%A7%E7%9A%84%E6%A2%A6%E5%A2%83/</loc>
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://prts.ink/categories/ushuaia-weekly/</loc>
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://prts.ink/categories/startain/</loc>
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
