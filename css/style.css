@@ -1,6 +1,9 @@
 .headerlink {
   display: none;
 }
+.hbe-button {
+  all: none;
+}
 body {
   margin: 0;
   padding: 5vh 10vw;
