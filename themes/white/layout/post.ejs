@@ -1,8 +1,8 @@
 
 <article id="post" class="post">
   <h1><%=page.title%><%page.categories.forEach(function(category, index) {%>
-    <span class="title_brand"><a href="/<%= category.path %>"><strong><%=category.name%></strong></a></span>
-<%});%></h1>
+    <span class="title_brand"><a href="/<%= category.path %>"><strong><%=category.name%></strong></a></span><%});%>
+  </h1>
   <div class="page_content">
     <div class="content">
       <%-page.content%>

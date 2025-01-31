@@ -10,6 +10,7 @@ menu:
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/style.css
+- /css/springFestival.css
 
 # scripts loaded in the end of the body
 scripts:
