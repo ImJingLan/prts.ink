@@ -38,5 +38,5 @@ content='''
 
 ## 鸣谢
 
-[極客死亡計劃](https://www.geedea.pro/) - 使用了部分设计
+[極客死亡計劃](https://www.geedea.pro/) - 使用了部分设计语言，致以敬意
 
