@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 普朗忒斯之墨
-subtitle: '新春快乐！'
-description: ''
+title: 繁星山
+subtitle: "Per asprera ad astra."
+description: ""
 keywords:
 author: 汐琥XiHu_
 language: zh-CN # 指定语言，会影响主题显示的语言，按需修改
@@ -38,30 +38,35 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+
+marked:
+  prependRoot: true
+  postAsset: true
+
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 1
   order_by: -date
 
@@ -83,7 +88,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -96,8 +101,7 @@ include:
 exclude:
 ignore:
 
-
-plugins: 
+plugins:
   - hexo-generator-feed
 
 feed:
@@ -105,7 +109,6 @@ feed:
     - rss2
   path:
     - feed
-
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -115,4 +118,4 @@ theme: white
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: ""
