@@ -264,7 +264,8 @@ blockquote p {
   position: relative;
 }
 .endline:before {
-  content: "END";
+  content: "HAPPY CHINESE NEW YEAR";
+  color: #ee3f4d;
   position: absolute;
   padding: 0 10px;
   line-height: 1px;

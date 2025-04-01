@@ -1,0 +1,5 @@
+#recent-posts h1 {
+  background: linear-gradient(180deg, #ed5a65 0%, #d11a2d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
